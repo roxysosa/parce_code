@@ -102,7 +102,7 @@ public class Fixcomment {
     public static void main(String[] args) throws IOException {
         try {
             String[] extensions = {"c", "h"};
-            List<String> files = findFiles(Paths.get("C:/Users/rsosa/OneDrive - Quside/Documents/QusideQRNGLibrary"), extensions);
+            List<String> files = findFiles(Paths.get("C:/Users/rute"), extensions);
             //files.forEach(x -> System.out.println(x));
             for (String str: files){
                 System.out.println(str);
